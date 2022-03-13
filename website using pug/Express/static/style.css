@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body::before{
+    content:"";
+    background: url(/Express/hd.jpg) no-repeat center center ;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    left :0;
+}
+.navbar{
+    background-color: black;
+}
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style:none;
+    padding: 13px;
+}
+.navbar ul li a{
+    font-size: 23px;
+    text-decoration: none;
+    padding: 12px 14px;
+    color: white;
+    font-weight: bold;
+}
+
+.formsection{
+    
+  align-items: center;
+    max-width: 850px;
+    margin: 19px auto;
+}
+
+.formsection h1{
+   text-align: center;
+   font-size: 34px;
+    
+}
+.formsection form input, textarea{
+  display: block;
+   width: 700px;
+   margin: 8px auto;
+   padding: 9px;
+   border: 2px solid black;
+   border-radius: 8px;
+   outline: none;
+
+}
+.btn{
+    display: block;
+    width:80px;
+    padding:12px;
+    margin: 12px auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+
+}
+
